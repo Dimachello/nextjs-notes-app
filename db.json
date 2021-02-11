@@ -1,0 +1,22 @@
+{
+    "topics": [
+        {
+            "id": 0,
+            "createdAt": "template",
+            "text": "For today",
+            "labels": []
+        },
+        {
+            "id": 1,
+            "createdAt": "template",
+            "text": "Your wishes",
+            "labels": []
+        },
+        {
+            "id": 1,
+            "createdAt": "template",
+            "text": "Schedule",
+            "labels": []
+        }
+    ]
+}
