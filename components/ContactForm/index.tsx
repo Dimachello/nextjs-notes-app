@@ -62,7 +62,6 @@ export default function ContactForm() {
             <FormHeader>Enter your data</FormHeader>
             <TextField
                 fullWidth
-                //required
                 type="email"
                 id='email'
                 name='email'
@@ -74,7 +73,6 @@ export default function ContactForm() {
             />
             <TextField
                 fullWidth
-                //required
                 type="text"
                 id='theme'
                 name='theme'
@@ -86,7 +84,6 @@ export default function ContactForm() {
             />
             <TextField
                 fullWidth
-                //required
                 multiline
                 rows={10}
                 id='question'
@@ -108,8 +105,6 @@ export default function ContactForm() {
 }
 
 const StyledContactForm = styled.form.attrs(props => ({
-    //onSubmit: props.onSubmit,
-    //className: props.className,
 }))`
     padding: 1rem;
     display: flex;

@@ -96,7 +96,7 @@ const LabelModalContainer = styled.div`
     align-items: center;
     min-height: 25rem;
     min-width: 25rem;
-    padding; 1rem 0rem;
+    padding: 1rem 0rem;
     border: 1px solid black;
     border-radius: 0.3rem;
 `;
@@ -111,7 +111,6 @@ const LabelsList = styled.ul`
     width: 100%;
     display: flex;
     flex-direction: column;
-    // justify-content: space-around;
     align-items: center;
     list-style: square;
     overflow-y: scroll;

@@ -24,7 +24,7 @@ export default function InputSectionContainer({ topicsList, getTopicsList }) {
 
     if (filtered.length === 0) {
       StatusModal.fire({
-        title: 'Label description is empty'
+        title: 'Topic name is empty'
       })
       return;
     }
