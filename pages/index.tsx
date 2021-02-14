@@ -17,7 +17,7 @@ export default function Home() {
       setTopics(topics);
     } else {
       setLoading(true);
-      axios('http://localhost:4200/topic')
+      axios('http://localhost:4200/topics')
         .then(response => {
           if (response.status === 200) {
             const topics: topicInterface[] = response.data;

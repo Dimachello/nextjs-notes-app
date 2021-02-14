@@ -1,12 +1,12 @@
 import Headers from '../common/Headers';
-// import Navigation from '../navigation/Navigation';
+import Navigation from '../Navigation';
 import styled from 'styled-components';
 
 export default function MainLayout({ children, title = 'Next-notes | App' }) {
     return (
         <>
             <Headers title={title} />
-            {/* <Navigation /> */}
+            <Navigation />
             <MainContainer>
                 {children}
             </MainContainer>

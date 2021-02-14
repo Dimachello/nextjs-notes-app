@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import Loader from 'react-loader-spinner';
 
-export default function () {
+export default function MyLoader() {
     return (
         <LoaderWrapper>
             <Loader type="Grid" color="#00BFFF" height={30} width={30} />
@@ -16,4 +16,3 @@ const LoaderWrapper = styled.div`
     align-items: center;
 `;
 
-// const LoaderStatus = styled.h2``;

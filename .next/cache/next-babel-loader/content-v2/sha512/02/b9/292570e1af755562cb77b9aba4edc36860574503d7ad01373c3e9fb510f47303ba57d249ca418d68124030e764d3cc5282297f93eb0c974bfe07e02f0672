@@ -1,0 +1,1 @@
+{"ast":null,"code":"export const NavPrimary = 'rgb(37, 38, 38)';","map":{"version":3,"sources":["/home/dima/Desktop/next-practise/next-notes/constants/stylesConstants.ts"],"names":["NavPrimary"],"mappings":"AAAA,OAAO,MAAMA,UAAU,GAAG,iBAAnB","sourcesContent":["export const NavPrimary = 'rgb(37, 38, 38)';\n\n\n"]},"metadata":{},"sourceType":"module"}

@@ -4,6 +4,7 @@ import moment from 'moment';
 import { StatusModal } from '../common/StatusModal';
 
 import { inputChangeHandler } from '../../utils/handlers';
+import { MainSecondary } from '../../constants/stylesConstants';
 
 export default function InputSectionContainer({ topicsList, getTopicsList }) {
   const [input, setInput] = useState('');
@@ -77,7 +78,9 @@ const InputField = styled.input.attrs(props => ({
   padding: 0.5rem;
   border: 1px solid transparent;
   font-size: 2rem;
-  border-radius: 0.3rem;
+  border-bottom: 1px;
+  border-style: solid;
+  border-color: ${MainSecondary};
   outline: none;
 `;
 

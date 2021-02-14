@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { toggleModalHandler } from '../../utils/handlers';
 import LabelModal from '../LabelModal';
 import { StatusModal } from '../common/StatusModal';
+import { MainSecondary } from '../../constants/stylesConstants';
 
 export default function TopicModal({ topic, deleteTopic }) {
     const [topicObj, setTopic] = useState(topic);
@@ -90,7 +91,9 @@ const TopicContainer = styled.div`
     justify-content: space-around;
     align-items: flex-start;
     padding: 1rem;
-    background-color: white;
+    border: 1px;
+    border-style: solid;
+    border-color: ${MainSecondary};
     border-radius: 0.3rem;
 `;
 

@@ -1,4 +1,6 @@
+import { Main } from 'next/document';
 import { createGlobalStyle } from 'styled-components';
+import { MainPrimary } from '../constants/stylesConstants';
 
 const GlobalStyle = createGlobalStyle`
   * {
@@ -20,7 +22,7 @@ const GlobalStyle = createGlobalStyle`
 
   main {
     flex: 1;
-    background-color: lightgray; 
+    background-color: ${MainPrimary}; 
   }
 `;
 
